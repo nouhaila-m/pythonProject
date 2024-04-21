@@ -1,0 +1,1508 @@
+Question,Response
+afficher synthse des stocks,"application fiori app afficher synthse des stocks. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 30000006
+division jf02
+magasin ap01
+cliquez sur excut
+notez les deux lot que vous utiliserez pour les prochaines tapes
+si les lots ne sont pas accessible, merci de le reporter la team
+. rsultats attendus stock affich avec diffrents lots affichs avec succs"
+cration manuel de lordre de process de blending,"application fiori app cration dun ordre de process . donnes dentre et instructions 1. entrez les donnes suivantes 
+ article 30000006
+ division de production jf02
+ type dordre zpob
+2. cliquez sur suite
+3. entrez les donnes suivantes 
+ qt totale 1000
+ date dbut date actuelle
+ date fin date actuelle
+4. allez la vue donn.base, et vrifiez si la version de fabrication est b001, puis continuez
+5. cliquez sur validerlancer en haut
+un message sur le calcul de cut , cliquez sur oui et lordre de process va tre cre, notez le numro de lordre de process. rsultats attendus 1.ordre de process blending cre 100xxxx"
+confirmation manuel de la production et sortie de marchandises,"application app 
+confirmation dune phase dordre de process. donnes dentre et instructions titre dentte saisir le relev dheures pour lordre de process
+1. entrez les donnes sur les champs 
+2. ordre de process 1000xxx
+3. phase 0020 et puis appuyez sur entrer.
+4. dans lcran suivant entrez les donnes suivantes 
+5.rendement entrer une quantit partielle de lordre de process
+6. dtails des activits
+7. equipe 1
+8. date enregistrement date de lxecution du script
+9. text confirmation optional
+10. motif cart optional
+11. une fois tous les drtails entrs, cliquez sur le button en haut mouvements de stocks.
+12.slectionnez la ligne de lartcile et cliquez sur le button fract.
+dans lcran suivant entrez la quantit fractionne 500 la moiti de la quantitdu rendement par exemple et cliquez sur reprendre
+cette action va crer 2 lignes pour la cnnsommation de larticle mlanger avec deux diffrent lots
+13. entrez le lot appropi lot 1 et 2
+14.puis cliquez sur enregistrer . rsultats attendus confirmation confime avec succs"
+confirmation de rception de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions header title goods receipt order uset name
+1. selectionnez entr de marchandises 
+2. sur 2eme liste droulante selectionnez ordre
+3.entrez dordre de process et appuyez sur entrer
+4. larticle pour entr de marchandises saffiche, modifiez la date document la date actuelle 
+5.les dtails sur la rception sont affichs
+6. mettez jour quantit division, magasin, lot soit en enregistre lentr sur un lot existant, soit un nouveau lot sera cre automatiquement 
+7. puis cliquez sur post ok 
+8.cliquez sur le button vrifier, pour vrifier les information entres, et not le numro du troisime lot gnr pour les tapes suivantes
+9. puis cliquez sur le button enregistrer. rsultats attendus entr de marchandises effectu avec succs
+lot cre"
+saisie des rsultats de contrle pour la rception,"application fiori app saisie des rsultats de contrle rserve de travail hirarchique. donnes dentre et instructions titre dentte rserve de travail saisie rsultats
+1. entrez les donnes suivantes
+2. division jf02
+3. lot dorigine 04, entrez numro de lot 0000000xxx et cliquez sur executer.
+4. dans le panneau gauche, ouvrir le noeud corrspondant au lot de contrle et ordre de process.
+5. cliquez sur le noeud au niveau de lopration et cliquez sur le noeud de lchantillon pour afficher les caractritiques de contrle
+6. pour les caractristiques marques avec la moyenne pondr, les rsultats sont calculs automatiquement
+7. pour le reste des caractristiques, ils proviennent de lims vrifier les valeurs, ou entrer les valeurs manuellement.
+9. selectionnez les caractrisitques et cliquez sur clture
+10. cliquez sur la checkbox accepter et cliquez sur le button suite
+11. rptez la mme chose pour les autres caractristiques et enregistrer. rsultats attendus les rsultats de contrle pour lentr de marchandises est enregistr avec succs"
+"confirmez dcision dutilisation pour la gr de lodre de process
+04 inspection type","application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions titre dentte slection des lots de contrle
+1. entrez les donnes suivantes
+ lot cre le date of script execution
+ division jf02
+ article 30000006
+ origine lot de ctrl 04
+ lot 0000000xxx gnr lors de ltape 4
+2. cliquez sur executer
+3. 1. selectionnez le lot de contrle li lordre de process et cliquez sur dcision dutilisation
+3. 2. cliquez sur highlighted in screenshot, ct de caractristiques appropries pour d.u.
+3. 3. allez la section dcision dutilisation
+4. dans le champ code du
+5. selectionnez le code de dcision dutilisation appropri.
+6. cliquez sur la vue stock de lot de contrle
+7. cliquez sur le button proposal
+8. cliquez enregistrer .. rsultats attendus 	
+ dcision dutilisation enregistrer"
+afficher synthse des stocks,"application fiori app afficher synthse des stocks. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 30000006
+division jf02
+magasin ap01
+cliquez sur excut. rsultats attendus stock affich pour le lot 3"
+cost analysisvariance analysis report of process order,"application fiori app display process order. donnes dentre et instructions entrez 
+1.le numro de lordre de process 100xxxx et appuyez sur entrer
+2. follow steps plus saut cots analyse cliquez sur le button en haut slectionner mise en forme et appuyer sur entrer. rsultats attendus 1. the costvariance report will be display for process order.
+00000100xxxx"
+complter techniquement la production standard,"application fiori app modification dun ordre de process. donnes dentre et instructions 1. entrez les donnes suivantes
+ ordre de process 1000xxxx
+2. appuyer sur entrer
+3. selectionnez plus ordre de process fonctions limiter le traitement clture technique
+4. cliquez sur sauvegarder. rsultats attendus clture technique de lordre de process. status teco"
+crer une livraison en rfrence une commande client,"application application fiori  modifier livraison sortante. donnes dentre et instructions entte modifier livraison sortante
+1.sur lcran initial, saisissez livraison sortante 8000xxxx,et appuyez sur suite
+2. dans lcran suivant, allez au tableau tous les postes, larticle et la division dvsn seront affichs.
+3. slctionnez la ligne du poste que vous dsirez fractionner en diffrents lots et cliquer sur le bouton en dessous fractionn. lot, un nouveau tableau saffiche o vous ajoutez les numros des lots mlanger, avec le magasin, qt. 
+4. cliquez sur le bouton de retour puis allez longlet donnes mouvement de stock et entrez date relle de sortie des marchandisesmvt. stock rel, puis appuyez sur entre puis sauvegarder. le message affichera livraison 8000xxxx sauvegard. rsultats attendus livraison modifie avec succs"
+"vrifier lot de contrle cr pour le type de contrle 02, gnr aprs la cration de la livraison.","application app fiori traiter les lots de contrle rserve de travail. donnes dentre et instructions entte slection des lots de contrle
+entrez les dtails suivants  
+1.article 30000018
+2. lot cr le  date dexcution du script 
+3. division jf01
+4. origine lot de ctrle 02
+5. cliquez sur excuter 
+6. dans le ruban en haut, cliqez sur plus, slectionnez modifier mise en forme, sous colonnes, cliquez sur licne de la loupe pour chercher, sur la nouvelle fentre de slection, dans crit.rech. tapez livraison, et cliquez sur entre, puis sur interrompre, le champ livraison sera affich en haut de colonne et slectionn, cliquer sur le bouton pour lajouter dans les colonnes affiches, cliquer sur entre
+7. une fois que vous avez slectionn votre lot dinspection, notez le numro de lot de contrle pour le numro de livraison
+8. slectionnez la ligne, et cliquez sur rsultats
+9. une nouveau message point de contrle saffiche, choisissez le numro de sample chantillon en cliquant sur le champs, puis en utilisant le bouton en carreaux qui apparat, slectionnez le numro, et cliquez sur suite pour passer ltape suivante 3.. rsultats attendus le lot de contrle 20xxxxxxxxx affich"
+enregistrement des rsultats par rapport au lot de contrle,"application app fiori traiter les lots de contrle rserve de travail. donnes dentre et instructions entte modifier donnes du lot de contrle rserve de travail lots de contrle
+1. entrez dans control 1, et entrez la valeur du rsultat dans la colonne rsultat 
+2. slectionnez les caractristiques et cliquez sur le bouton en icne de balance valoriser, un message saffichera pour valorisation manuelle des rsultats saisis, chosissez accepter ou rejeter.
+3. une fois la valorisation faite, cliquez sur le cadenas ferm cloturer
+5. les caractristiques saisies seront signales par un symbole vert si elles sont acceptes ou par une croix rouge si elles sont rejetes puis sauvegarder. rsultats attendus rsultat enregistr pour le lot inspect 20xxxxxxxxx"
+enregistrer la dcision dutilisation par rapport au lot de contrle,"application app fiori traiter les lots de contrle rserve de travail. donnes dentre et instructions entte saisir dcision dutilisation liste des caractristiques
+1. saisir le lot de contrle 20xxxxxxxxx
+2. appuyez sur dcision dutilisation
+3. 1. cliquez sur , ct de caractristiques appropries pour d.u. pour afficher les rsultats dinspection 
+3. 2. descendez la section de dcision dutilisation 
+4. cliquez sur le champs code d.u. et puis sur la touche f4 ou choisissez dans la liste avec des valeurs prdfinies, pour accepter le lot de contrle. 
+5. slectionnez et appuyez sur choisir 
+6. sauvegarder, lcran suivant est un long texte si des commentaires sur la dcision dutilisation doivent tre ajouts, cliquez sur licne de retour et un message affichera la dcision dutilisation pour le lot 200000xxxxx est enregistre. rsultats attendus dcision dutilisation prise pour le lot de contrle concern numro du lot de contrle"
+enregistrer la sortie de marchandises,"application application fiori  modifier livraison sortante. donnes dentre et instructions entte modifier livraison sortante 
+1. saisissez le numro de livraison sortante 8000xxxx
+2. en haut de lcran, cliquez sur le bouton enreg. sortie march., la sortie de marchandise se fera par cration de document article.. rsultats attendus la sortie de marchandises est enregistre pour la livraison et les critures comptables sont enregistres."
+afficher le document gnr aprs sortie de marchandise,"application app fiori afficher synthse des stocks. donnes dentre et instructions entte synthse du stock entrez les dtails suivants 
+1. article 30000018
+2. division jf01
+3. magasin fr01
+4. excutez. 
+5. les informations associes seront affiches.. rsultats attendus un document contenant des informations saffichera."
+aperu du certificat danalyse du lot dinspection,"application application fiori  crer certificat qualit pour lot de contrle. donnes dentre et instructions entte certificat qualit pour lot de contrle entrez les dtails suivants 
+1. lot de contrle 20xxxxxxxxx
+2. sur donnes de destinataire cliquez sur slctionn. destinataire choisissez numro client,
+3. saisissez numro client, puis langue
+4. cliquez sur excuter, puis imprimer ou ctrlp
+5. sur le nouveau message impression de la liste affiche, choisissez locl pour unit de sortie
+6. cliquez sur autre profil. 
+7. profil du certificat dap1jf01
+8. type de certificat zqmc
+9. modle 1
+excutez 
+10. priphrique de sortie locl
+11. aperu avant impression
+. rsultats attendus aperu du certificat"
+aperu du certificat danalyse ds la livraison,"application application fiori  crer un certificat de qualit pour les livraisons. donnes dentre et instructions entte certificats de qualit pour les livraisons 
+1. type de sortie locl
+2. ordre de tri 01
+3. mode de traitement 1premier traitement 
+4. entrez la livraison sortante80000027
+5. excutez. 
+6. slectionnez la ligne et cliquez sur le bouton aperu avant impression
+. rsultats attendus aperu du certificat"
+crer une livraison en rfrence bon de commande,"application application fiori  modifier livraison sortante. donnes dentre et instructions entte modifier livraison sortante
+1.sur lcran initial, saisissez livraison sortante 8000xxxx,et appuyez sur suite
+2. dans lcran suivant, allez au tableau tous les postes, larticle et la division dvsn seront affichs, entrez le numro de lot du stock livrer dans la colonne lot, entrez la mme quantit dans les colonnes prleve et livr, utilisez le magasin mag. o le stock livrer est disponible fr01, 
+3. allez longlet donnes mouvement de stock et entrez date relle de sortie des marchandisesmvt. stock rel, puis appuyez sur entre puis sauvegarder. le message affichera livraison 8000xxxx sauvegard. rsultats attendus livraison modifie avec succs"
+"vrifier lot de contrle cr pour le type de contrle 02, gnr aprs la cration de la livraison.","application app fiori traiter les lots de contrle rserve de travail. donnes dentre et instructions entte slection des lots de contrle
+entrez les dtails suivants  
+1.article 30000018
+2. lot cr le  date dexcution du script 
+3. division jf01
+4. origine lot de ctrle 02
+5. cliquez sur excuter 
+6. dans le ruban en haut, cliqez sur plus, slectionnez modifier mise en forme, sous colonnes, cliquez sur licne de la loupe pour chercher, sur la nouvelle fentre de slection, dans crit.rech. tapez livraison, et cliquez sur entre, puis sur interrompre, le champ livraison sera affich en haut de colonne et slectionn, cliquer sur le bouton pour lajouter dans les colonnes affiches, cliquer sur entre
+7. une fois que vous avez slectionn votre lot dinspection, notez le numro de lot de contrle pour le numro de livraison
+8. slectionnez la ligne, et cliquez sur rsultats
+9. une nouveau message point de contrle saffiche, choisissez le numro de sample chantillon en cliquant sur le champs, puis en utilisant le bouton en carreaux qui apparat, slectionnez le numro, et cliquez sur suite pour passer ltape suivante 3.. rsultats attendus le lot de contrle 20xxxxxxxxx affich"
+enregistrement des rsultats par rapport au lot de contrle,"application app fiori traiter les lots de contrle rserve de travail. donnes dentre et instructions entte modifier donnes du lot de contrle rserve de travail lots de contrle
+1. entrez dans control 1, et entrez la valeur du rsultat dans la colonne rsultat 
+2. slectionnez les caractristiques et cliquez sur le bouton en icne de balance valoriser, un message saffichera pour valorisation manuelle des rsultats saisis, chosissez accepter ou rejeter.
+3. une fois la valorisation faite, cliquez sur le cadenas ferm cloturer
+5. les caractristiques saisies seront signales par un symbole vert si elles sont acceptes ou par une croix rouge si elles sont rejetes puis sauvegarder. rsultats attendus rsultat enregistr pour le lot inspect 20xxxxxxxxx"
+enregistrer la dcision dutilisation par rapport au lot de contrle,"application app fiori traiter les lots de contrle rserve de travail. donnes dentre et instructions entte saisir dcision dutilisation liste des caractristiques
+1. saisir le lot de contrle 20xxxxxxxxx
+2. appuyez sur dcision dutilisation
+3. 1. cliquez sur , ct de caractristiques appropries pour d.u. pour afficher les rsultats dinspection 
+3. 2. descendez la section de dcision dutilisation 
+4. cliquez sur le champs code d.u. et puis sur la touche f4 ou choisissez dans la liste avec des valeurs prdfinies, pour accepter le lot de contrle. 
+5. slectionnez et appuyez sur choisir 
+6. sauvegarder, lcran suivant est un long texte si des commentaires sur la dcision dutilisation doivent tre ajouts, cliquez sur licne de retour et un message affichera la dcision dutilisation pour le lot 200000xxxxx est enregistre. rsultats attendus dcision dutilisation prise pour le lot de contrle concern numro du lot de contrle"
+enregistrer la sortie de marchandises,"application application fiori  modifier livraison sortante. donnes dentre et instructions entte modifier livraison sortante 
+1. saisissez le numro de livraison sortante 8000xxxx
+2. en haut de lcran, cliquez sur le bouton enreg. sortie march., la sortie de marchandise se fera par cration de document article.. rsultats attendus la sortie de marchandises est enregistre pour la livraison et les critures comptables sont enregistres."
+afficher le document gnr aprs sortie de marchandise,"application app fiori afficher synthse des stocks. donnes dentre et instructions entte synthse du stock entrez les dtails suivants 
+1. article 30000018
+2. division jf01
+3. magasin fr01
+4. excutez. 
+5. les informations associes seront affiches.. rsultats attendus un document contenant des informations saffichera."
+aperu du certificat danalyse du lot dinspection,"application application fiori  crer certificat qualit pour lot de contrle. donnes dentre et instructions entte certificat qualit pour lot de contrle entrez les dtails suivants 
+1. lot de contrle 20xxxxxxxxx
+2. sur donnes de destinataire cliquez sur slctionn. destinataire choisissez numro client,
+3. saisissez numro client, puis langue
+4. cliquez sur excuter, puis imprimer ou ctrlp
+5. sur le nouveau message impression de la liste affiche, choisissez locl pour unit de sortie
+6. cliquez sur autre profil. 
+7. profil du certificat dap1jf01
+8. type de certificat zqmc
+9. modle 1
+excutez 
+10. priphrique de sortie locl
+11. aperu avant impression
+. rsultats attendus aperu du certificat"
+aperu du certificat danalyse ds la livraison,"application application fiori  crer un certificat de qualit pour les livraisons. donnes dentre et instructions entte certificats de qualit pour les livraisons 
+1. type de sortie locl
+2. ordre de tri 01
+3. mode de traitement 1premier traitement 
+4. entrez la livraison sortante80000027
+5. excutez. 
+6. slectionnez la ligne et cliquez sur le bouton aperu avant impression
+. rsultats attendus aperu du certificat"
+affichage tat de stock,"application application fiori  afficher synthse des stocks. donnes dentre et instructions entte synthse du stock  socit division magasin lot 
+1. article 30000029
+2. division sf02
+3. cliquez sur excuter. 
+4. notez un magasin, et lot avec quantit disponible utilisation libre utiliser pour la livraison. rsultats attendus affichage du stock"
+crer une livraison en rfrence une commande client,"application application fiori  modifier livraison sortante. donnes dentre et instructions entte modifier livraison sortante
+1.sur lcran initial, saisissez livraison sortante 8000xxxx,et appuyez sur suite
+2. dans lcran suivant, allez au tableau tous les postes, larticle et la division dvsn seront affichs.
+en cas de fractionnement de lots 3.1. slctionnez la ligne du poste que vous dsirez fractionner en diffrents lots et cliquez sur le bouton en dessous fractionn. lot, un nouveau tableau saffiche o vous ajoutez les numros des lots mlanger, avec le magasin, qt.cliquez aprs sur le bouton de retour.
+en cas de livraison dun seul lot depuis le magasin 3.1 ajoutez le numro du lot et magasin nots sur la mme ligne de larticle expdier.
+4. allez longlet donnes mouvement de stock et entrez date relle de sortie des marchandisesmvt. stock rel, puis appuyez sur entre puis sauvegarder. le message affichera livraison 8000xxxx sauvegard. rsultats attendus livraison modifie avec succs"
+"vrifier lot de contrle cr pour le type de contrle 02, gnr suite la cration de la livraison.","application app fiori traiter les lots de contrle rserve de travail. donnes dentre et instructions entte slection des lots de contrle
+entrez les dtails suivants  
+1.article 30000029
+2. lot cr le  date dexcution du script 
+3. division sf02
+4. origine lot de ctrle 02
+5. cliquez sur excuter 
+6. dans le ruban en haut, cliqez sur plus, slectionnez modifier mise en forme, sous colonnes, cliquez sur licne de la loupe pour chercher, sur la nouvelle fentre de slection, dans crit.rech. tapez livraison, et cliquez sur entre, puis sur interrompre, le champ livraison sera affich en haut de colonne et slectionn, cliquer sur le bouton pour lajouter dans les colonnes affiches, cliquer sur entre
+7. une fois que vous avez slectionn votre lot dinspection, notez le numro de lot de contrle pour le numro de livraison
+8. slectionnez la ligne, et cliquez sur rsultats
+9. une nouveau message point de contrle saffiche, choisissez le numro de sample chantillon en cliquant sur le champs, puis en utilisant le bouton en carreaux qui apparat, slectionnez le numro, et cliquez sur suite pour passer ltape suivante 3.. rsultats attendus le lot de contrle 20xxxxxxxxx affich"
+enregistrement des rsultats par rapport au lot de contrle,"application app fiori traiter les lots de contrle rserve de travail. donnes dentre et instructions entte modifier donnes du lot de contrle rserve de travail lots de contrle
+1. entrez dans control 1, et entrez la valeur du rsultat dans la colonne rsultat 
+2. slectionnez les caractristiques et cliquez sur le bouton en icne de balance valoriser, un message saffichera pour valorisation manuelle des rsultats saisis, chosissez accepter ou rejeter.
+3. une fois la valorisation faite, cliquez sur le cadenas ferm cloturer
+5. les caractristiques saisies seront signales par un symbole vert si elles sont acceptes ou par une croix rouge si elles sont rejetes puis sauvegarder. rsultats attendus rsultat enregistr pour le lot inspect 20xxxxxxxxx"
+enregistrer la dcision dutilisation par rapport au lot de contrle,"application app fiori traiter les lots de contrle rserve de travail. donnes dentre et instructions entte saisir dcision dutilisation liste des caractristiques
+1. saisir le lot de contrle 20xxxxxxxxx
+2. appuyez sur dcision dutilisation
+3. 1. cliquez sur , ct de caractristiques appropries pour d.u. pour afficher les rsultats dinspection 
+3. 2. descendez la section de dcision dutilisation 
+4. cliquez sur le champs code d.u. et puis sur la touche f4 ou choisissez dans la liste avec des valeurs prdfinies, pour accepter le lot de contrle. 
+5. slectionnez et appuyez sur choisir 
+6. sur le ruban en haut de la page, cliquez sur services objet crer... crer pice jointe, un message affiche chargement dun fichier , cliquez ok, et choisissez le fichier ou coa attacher sur votre dossier.un message affiche la pice jointe a t cre correctement. pour lafficher, vous cliquez sur services objet liste des pices jointes
+7. sauvegarder, lcran suivant est un long texte si des commentaires sur la dcision dutilisation doivent tre ajouts, cliquez sur licne de retour et un message affichera la dcision dutilisation pour le lot 200000xxxxx est enregistre. rsultats attendus dcision dutilisation prise pour le lot de contrle de livraison sortante numro de lot de contrle"
+enregistrer la sortie de marchandises,"application application fiori  modifier livraison sortante. donnes dentre et instructions entte modifier livraison sortante 
+1. saisissez le numro de livraison sortante 8000xxxx
+2. en haut de lcran, cliquez sur le bouton enreg. sortie march., la sortie de marchandise se fera par cration de document article.. rsultats attendus la sortie de marchandises est enregistre pour la livraison et les critures comptables sont enregistres."
+aperu du certificat danalyse du lot dinspection,"application application fiori  crer certificat qualit pour lot de contrle. donnes dentre et instructions entte certificat de qualit pour le lot de contrle entrez les dtails suivants 
+1. lot de contrle20xxxxxxxxx
+2. cliquez sur le bouton choisissez le destinataire 
+3. destinataire choisissez numro de client, cliquez sur continuer
+4. entrez le numro de client 1000000075
+5. langue 
+6. cliquez sur autre profil. 
+7. profil du certificat  flux1sf02
+8. type de certificat zqmc
+9. modle 1
+excutez 
+10. priphrique de sortie locl
+11. aperu avant impression
+. rsultats attendus aperu du certificat"
+nan,application nan. donnes dentre et instructions nan. rsultats attendus nan
+lot manuel cr avec inspection z8901 pour les retours clients,"application application fiori  crer lot de contrle. donnes dentre et instructions entte crer manuellement lot de contrle cran initial 
+1. dans lcran initial, entrez article 30000029
+divisionsf02
+origine lot de ctrle 89
+dans la fentre contextuelle du type dinspection possible, slectionnez z8901 contrle danalyse des rsltats client
+2. appuyez sur le bouton vert 
+3. entrez la quantit du lot de contrle 
+4. enregistrez 
+5. notez le numro du lot de contrle pour les tapes suivantes. rsultats attendus origine du lot de contrle 89 cr"
+enregistrement des rsultats effectu avec les valeurs reues du client.,"application app fiori saisie des rsultats de contrle rserve de travail hirarchique. donnes dentre et instructions entte de lcran rserve de travail saisie rsultats 
+1 vrifiez quaucune donne nest saisie sur les ongles articles et chantillon puis allez la section numro lot de contrle, saisissez le lot de contrle 89000000xxx
+excuter
+2 cliquez sur le nud du lot de contrle sur le ct gauche. cliquez sur le nud dopration 0010
+doublecliquez sur le nud de lchantillonsample.
+les caractristiques dinspection peuvent tre vues sur le ct droit pour lenregistrement des rsultats si la caractristique est verrouille cellule en gris, vous pouvez slectionnez la ou les lignes des caractristiques grises et cliquer sur licne du cadenas ouvert en cours 
+3 tapez sur la colonne contrl 1, entrez les valeurs de rsultat partages par le client 
+4 dans la troisime colonne partir de la gauche, il y a une case cocher pour caractristique rejete, cochezla pour la ligne correspondante et cochez la deuxime pour accepter.
+5 slectionnez les caractristiques de la premire colonne et cliquez sur licne cadenas fermer clturer, un message affiche ferm avec succs 
+. rsultats attendus rsultat enregistr"
+enregistrer la dcision dutilisation par rapport au lot de contrle,"application application fiori  saisir dcision dutilisation. donnes dentre et instructions entte saisir dcision dutilisation  cran initial 
+1. entrez le lot de contrle 89xxxxxxxxx 
+2. appuyez sur suite 
+3. pour ajouter un coa en pice jointe sur le ruban en haut de la page, cliquez sur services objet crer... crer pice jointe, un message affiche chargement dun fichier , cliquez ok, et choisissez le fichier ou coa attacher sur votre dossier.un message affiche la pice jointe a t cre correctement. pour lafficher, vous cliquez sur services objet liste des pices jointes
+4. sur le ruban en haut de la fentre cliquez sur dfauts, choisissez un type de catalogue 00000070
+5. sur grpe code, choisissez un dfaut qui correspond au produit fini trait, et a010 pour classe majeure.
+6. cliquez sur entre, ceci cre une notification en arrire plan que vous traitez dans ltape suivante
+7. descendez la section de dcision dutilisation 
+8.1. si vous refusez les rsultats du clien dans le champ code ud, cliquez sur f4 ou choisissez dans la liste avec des valeurs prdfinies, pour le code rcur rejeter coa client inspection tiers, 
+8.2. si vous acceptez les rsultats du client dans le champ code ud, cliquez sur f4 ou choisissez dans la liste avec des valeurs prdfinies, pour le code acur accepter les rsultats du coa du client,
+9. slectionner 
+10. enregistrer, lcran suivant est un long texte si des commentaires sur la dcision dutilisation doivent tre ajouts, cliquez sur licne de retour et un message affichera la dcision dutilisation pour le lot 890000xxxxx est enregistre. rsultats attendus dcision dutilisation prise pour le lot de contrle concern numro du lot de contrle"
+crer un avis qualit en cas de rclamation client avec rfrence la livraison et au lot de contrle 02.,"application application fiori  modifier avis qm. donnes dentre et instructions entte  modifier avis  cran initial 
+1. pour slectionner la notification cre, cliquez sur le champs notification puis f4, ou les carreaux qui apparaissent cot
+2. slectionnez p lot de contrle, pour chercher la base du lot de contrle trait. entrez le numro du lot de contrle 89xxxxxxxxx puis cliquez sur rechercher.
+4. appuyez sur continuer
+5. allez longlet sujet, slectionnez un codage dans la liste droulante 
+6. allez postes , crer un dfaut en slectionnant groupe de codes et code dfaut pour la rclamation, rpter pour localisation dans le mme tableau si un point prcis est li au dfaut et ajoutez une description.
+7. slectionnez la ligne de dfaut et cliquez sur longlet causes, dans le taleau causes par poste, slectionnez un groupe de codes cause dans la liste droulante, puis code cause partir de valeurs prdfinies. ajoutez le texte cause. 
+8. allez longlet actions pour postes . slectionner un des groupe de codes interventions de la liste droulante aacr et code 0040. ajoutez du texte pour decription demande darbitrage de labo externe dans le cas de refus des rsultas du client par exemple, et dates de dbut et de fin.
+9. slectionnez la ligne de laction et cliquez sur licone en bas dfinir status, et choisissez action corrective. 
+10. slectionnez la ligne de laction et cliquez sur licone du drapeau vert en bas pour la lancer.
+11. slectionnez la ligne de dfaut et cliquez sur longlet objet affect
+12. slectionnez la catgorie dobjet lot controle, appuyez sur entre et entrez le numro de lot de contrle cr avec la sortie de marchandise dorigine 02 dans ltape 3.
+13.en bas de lcran cliquez sur avis en cours, et puis sauvegarder
+14. ajoutez le nom du partenaire identifiant sap, vous pouvez le chercher en tapant le nom de famille et le systme propose les noms existants.et enregistrer
+15. le message affiche avis sauvegard. notez le numro de notification pour les prochaines tapes. rsultats attendus type de notification z1 cr"
+nan,application nan. donnes dentre et instructions nan. rsultats attendus nan
+lot manuel cr avec inspection z8901 pour les retours clients,"application application fiori  crer un lot de contrle. donnes dentre et instructions entte crer manuellement lot de contrle cran initial 
+1. dans lcran initial, entrez article 30000029
+divisionsf02
+origine lot de ctrle 89
+dans la fentre contextuelle du type dinspection possible, slectionnez z8902 contrle danalyse en labo indpendant
+2. appuyez sur le bouton vert 
+3. entrez la quantit du lot de contrle 
+4. enregistrez 
+5. notez le numro du lot de contrle pour les tapes suivantes. rsultats attendus origine du lot de contrle 89 cr"
+examiner les actions,"application application fiori  modifier avis qm. donnes dentre et instructions entte  modifier avis  cran initial 
+1. pour slectionner la notification cre, cliquez sur le champs notification puis f4, ou les carreaux qui apparaissent cot
+2. slectionnez p lot de contrle, pour chercher la base du lot de contrle cr prcdemment z8901. entrez le numro du lot de contrle 89xxxxxxxxx puis cliquez sur rechercher.
+3. appuyez sur continuer
+4. allez postes, slectionnez la ligne de dfaut et cliquez sur longlet objet affect
+5. slectionnez la catgorie dobjet lot controle, appuyez sur entre et entrez le numro de lot de contrle cr z8902.. rsultats attendus notification modifie 200xxxx"
+enregistrement des rsultats effectu avec les valeurs reues du client.,"application app fiori saisie des rsultats de contrle rserve de travail hirarchique. donnes dentre et instructions entte de lcran rserve de travail saisie rsultats 
+1 vrifiez quaucune donne nest saisie sur les ongles articles et chantillon puis allez la section numro lot de contrle, saisissez le lot de contrle 89000000xxx
+excuter
+2 cliquez sur le nud du lot de contrle sur le ct gauche. cliquez sur le nud dopration 0010
+doublecliquez sur le nud de lchantillonsample.
+les caractristiques dinspection peuvent tre vues sur le ct droit pour lenregistrement des rsultats si la caractristique est verrouille cellule en gris, vous pouvez slectionnez la ou les lignes des caractristiques grises et cliquer sur licne du cadenas ouvert en cours 
+3 tapez sur la colonne contrl 1, entrez les valeurs de rsultat partages par le client 
+4 dans la troisime colonne partir de la gauche, il y a une case cocher pour caractristique rejete, cochezla pour la ligne correspondante et cochez la deuxime pour accepter.
+5 slectionnez les caractristiques de la premire colonne et cliquez sur licne cadenas fermer clturer, un message affiche ferm avec succs 
+. rsultats attendus rsultat enregistr"
+enregistrer la dcision dutilisation par rapport au lot de contrle,"application application fiori  saisir dcision dutilisation. donnes dentre et instructions entte saisir dcision dutilisation  cran initial 
+1. entrez le lot de contrle 89xxxxxxxxx 
+2. appuyez sur suite 
+3. sur le ruban en haut de la page, cliquez sur services objet crer... crer pice jointe, un message affiche chargement dun fichier , cliquez ok, et choisissez le fichier attacher sur votre dossier.un message affiche la pice jointe a t cre correctement. pour lafficher, vous cliquez sur services objet liste des pices jointes
+3. descendez la section de dcision dutilisation 
+4. dans le champ code ud, cliquez sur f4 ou choisissez dans la liste avec des valeurs prdfinies, pour le code a3pr accpeter les rsultats du coa indp.
+5. slectionner
+6. enregistrer, lcran suivant est un long texte si des commentaires sur la dcision dutilisation doivent tre ajouts, cliquez sur licne de retour et un message affichera la dcision dutilisation pour le lot 890000xxxxx est enregistre. rsultats attendus dcision dutilisation prise pour le lot de contrle concern numro du lot de contrle"
+imprimer coa 2,"application application fiori  afficher lot de contle. donnes dentre et instructions 1.allez afficher le lot de contrle dans fiori
+ 2.entrez le numro du lot de contrle 890000000xxx puis appuyez sur continuer 
+3.en haut de lcran, accdez plus traitement de linspectioncration de certificatspour le lot dinspection 
+4.cliquez sur choisir le destinataire. destinatairechoisir le numro de client
+saisir le numro de client 1000000075
+langue fr 
+5.cliquez sur autre profil. profil de certificat flux1sf02
+type de certificatzqmc
+version1
+6.excuter priphrique de sortie locl
+7.cliquez sur aperu avant impression. rsultats attendus aperu du certificat"
+fermer la notification de qualit cre contre les rclamations des clients.,"application application fiori  modifier avis qm. donnes dentre et instructions entte  modifier avis  cran initial 
+1. saisissez le numro de notification 200000xxx, suite
+2. allez longlet actions pour postes . slectionnez la ligne de laction lance, et cliquez en bas sur le drapeau bleu pour la clturer.
+3. cliquez sur complter en bas de lcran, un message saffiche, choisissez origine externe. et puis suite
+4. un message en bas affiche avis cltur. rsultats attendus avis termin"
+afficher stock,"application fiori app stock artcilces multiples. donnes dentre et instructions entrez les informations du champ cidessous 
+division jf06
+magasin h006
+article 30000011
+rpter pour la combinaison suivante 
+division jf06
+magasin h18a
+articlel 30000013
+
+division jf06
+magasin h18c
+article 30000018
+
+division jf06
+magasin h001
+article 30000093
+cliquer sur lancer. rsultats attendus stock de division afficher proprement"
+crer les documents dinventaires physique,"application fiori app cration de document dinventaire unique. donnes dentre et instructions 
+1entrer divisionmagasin
+division jf06
+magasin h006
+date de document et date prvue pr cmptagesont remplis automatiquement par le sytme
+2appuyer sur entrer, lcran suivant saffiche
+3entrer le numro darticle 30000011
+entrer le lot ou laisser le champ vide, le systme va prendre en charge tous les lots de larticle
+cliquer sur entrer
+4 cliquer sur enregistrer et noter le document dinventaire gnr 10xxxxxxx
+5 rpter les tapes prcdentes pour les combinaisons divisionmagasinarticle cidessous 
+division jf06
+magasin h18c
+article 30000018
+
+division jf06
+magasin h001
+article 30000093. rsultats attendus document dinventaire physique xxxxxxxx cre"
+imprimer les documents dinventaire physique,"application fiori app imprimer document dinventaire. donnes dentre et instructions entrer document dinventaire physique cre lors de ltape 1.1 le systme va choisir le dernier document cre
+exercice comptable 
+division jf06
+puis cliquer sur le boutton excuter,
+dans le champs unit de sortie cliquer sur licne la droite, cliquer sur rechercher et slectionner la ligne lp01.
+puis cliquer sur aperu avant impression et le systme va afficha laperu
+puis cliquer sur imprimer. systme va imprimer le document.. rsultats attendus impression du document dinventaire saffiche avec succs"
+saisir comptage dinventaire,"application fiori app saisir comptage. donnes dentre et instructions 
+1.entrer
+numro du document dinventairer le numro du document cre lors de ltape 1.1, le systme saisie automatiquement le dernier documet dinventaire cre
+exercice comptable
+entrer date de comptage le systme propse automatiquement la date actulle
+
+appuyer sur entrer.
+3.entrer quantit pour chaque combinaispn darticle et lot
+exp article 30000011 qty10000
+
+appuyer sur entrer et cliquer sur enregistrrer
+comptage saise pour le document diventaire . xxxxx
+4 rpter pour chaque document dinventaire cre lor de ltape 1.1. rsultats attendus comptage saisie pour document dinventaire. xxxx"
+demander nouveau dinventaire physique,"application fiori app demander nouveau comptage. donnes dentre et instructions 
+
+1. entrer donnes cidessous,
+numro du document dinventairer le numro du document cre lors de ltape 1.1, le systme saisie automatiquement le dernier documet dinventaire creexercice comptable
+date de comptage planifie le systme propse automatiquement la date actulle
+date du document le systme propse automatiquement la date actulle
+cliquer sur enterer puis cliquer sur enregistrer,un nouveau document dinventaire sera cre
+
+3 refaire ltape 2.1 pour le nouveau document dinventaire
+. rsultats attendus document dinventaire cre"
+liste des carts dinventaire,"application 
+fioriapptraiter rsultats du comptage. donnes dentre et instructions 1. entrer donne cidessous,
+article
+division jf06
+magasin h006
+document dinventaire le numro du document cre lors de ltape 2.2, le systme saisie automatiquement le dernier documet dinventaire cre
+lot optional
+cliquer sur excuter,
+list des carts dinventaire est affiche.
+rpter cette tape pour le reste des documents dinventaire. rsultats attendus raport des liste des carts dinventaire executer avec succset ffiche le rsultat pour la liste de slction"
+accepter et enregistrer les carts dinventaire,"application fiori app enregistrer document dinventaire. donnes dentre et instructions 1 entrer
+numro dde document dinventaire entrer le numro dinventaire avec crts de ltape 2.2
+exercice comptable
+date comptable
+appuyer sur entrer,
+3.si lcart est un bonus slct la ligne mvt 701 et la raison pour mouvement erreur denregistrement
+si lcart est un bonus slct la ligne mvt 702 et la raison pour mouvement quantit non dclare. et cliquer sur enregistrer vous pouvez aussi laisser la raison pour mouvement vide cest optionel
+
+4 rpter pour chaque document dinventaire avec carts.
+5 notez le document drticle gnr. . rsultats attendus document des carts dinventaire. xxxx enregistrer avec doc. xxxx"
+afficher comptage,"application fiori app afficher comptage. donnes dentre et instructions 1numro dde document dinventaire entrer le numro dinventaire avec crts de ltape 2.2
+3. exercice comptable
+4.entrer,
+afficher aperu de comptage xxxxx lcran de laperu appar avec succs. rsultats attendus afficher aperu de comptage xxxxx lcran de laperu appar avec succs"
+afficher document darticle et enregistrements comptables vrifier fico document gnr,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 
+1 selectinnez
+sur 1er liste droulanteafficher
+sur 2eme liste droulante document article
+entrer le n document document articme cre lors de ltape 2.4
+2 dans gnralits slctionnez info document et cliquer sur document fi pour voir la liste des documents comptables. rsultats attendus liste des documents comptable est affiche"
+afficher stock,"application fiori app stock artcilces multiples. donnes dentre et instructions entrez les informations du champ cidessous 
+division jf06
+magasin h006
+article 30000011
+rpter pour la combinaison suivante 
+division jf06
+magasin h18a
+articlel 30000013
+division jf06
+magasin h18c
+article 30000018
+
+division jf06
+magasin h001
+article 30000093
+cliquer sur lancer. rsultats attendus stock de division afficher proprement"
+nan,application nan. donnes dentre et instructions nan. rsultats attendus nan
+cration en mass des documents inventaires,"application fiori app create pi documents regular stock. donnes dentre et instructions 
+1dans la section base de donnes, entrer le suivant 
+division jf06
+
+
+2 dans la section pilotage, selectinnez le suivant
+
+cocher la box gnrer batch input
+
+3 dans la section create pi documents regular stock, cocher si besoin
+
+cocher la box uniquement articles avec stock nul
+
+4 dans la section donnes de lentte du document dinventaire, 
+
+cocher la box pour activer bloc enregistrement
+
+5 cliquer sur excuter
+
+6 cliquer sur session de proocess
+
+7 selectionnez la ligneet cliquer sur procder
+
+selectinnez context et cliquer sur procder
+les documents dinventaire t cre avec succs pour la division. rsultats attendus documents dinventaires cres"
+afficher ordre planifi,"application fiori app affichage dordre planifi. donnes dentre et instructions titre dentte afficher ordre planifi cran initial
+1. cliquez sur f4, et entrez les donnes suivantes 
+article 30000006
+division de production jf01
+2. cliquez sur executer
+3. double cliquez sur le numro de lordre planifi , puis cliquez sur entrer
+4. vrifiez les informations suivantes 
+article 30000006
+unit de planification jf01
+qt dordre 1000
+dates base dbut date de lxecution du script, peut tre nimporte quelle date au future
+dates base fin date de lxecution du script, peut tre nimporte quelle date au future
+division de production jf01
+magasin ap01
+version de fabrication n001. rsultats attendus 1. lordre planifi est affich xxxx"
+convertir ordres planifis en ordres de process,"application fiori app convertir ordres planifis en ordres de process. donnes dentre et instructions titre dentte conversion collective des ordres planifis cran initial
+1. entrer les dtails sur fiori app
+2. article 30000006
+ division planif jf01
+3. process order type zpo1 
+et cliquez sur executer.
+4. dans lcran suivant, choisissez vrifier les dtails pour l aquantit et dates puis cliquez sur le button save.
+5. cliquez sur ouisi un lessage sur le calcul du cot saffiche lordre de process se cre, notez le numro de lordre de process pour les tapes suivantes. rsultats attendus 1. lordre planifi est converti en ordre de process 00000100xxxx"
+lancer lordre de process,"application fiori app lancement des ordres de process. donnes dentre et instructions titre dentte validationlancement dordres process accs
+1. entrez les donnes suivantes 
+ division jf01
+ type dordre zpo1
+2. cliquez sur executer
+3. selectionnez la ligne correspondane lordre de process cre
+4. cliquez sur lancer ordre 
+5. double cliquez sur le numro de lordre de process, allez la vue affectation, et notez le numro de lot de contrle. rsultats attendus 1. message lancement excut saffiche.
+2.ordre de process lanc et slectionnez lordre marqu
+numro de lot de contrle 300000xxxxx cre"
+entrez date de prlvement et heure de prlvement de lchantillon,"application fiori app modifier chantillon. donnes dentre et instructions titre dentte modifier chantillon
+3. cliquez sur le button droite du champ chantillon , allez la section l echantillon pour le lot de contrle actuel, entrez le numro de lot de contrle de ltape prcedente et cliquez sur rechercher, choisissez le premier chantillon cat 1 pressez entrer, si un message davertissement saffiche, double cliquez sur entrer, notez numro dchantillon
+3. dans lcran suivant, allez la vue dtailechant
+4.en bas de lcran entrez la date et heure du prlvement de lchantillon.
+5. puis sauvegarder lchantillon. rsultats attendus 1. date de prlvement et heure de prlvement de lchantillon misent jour"
+imprimer lchantillon de contrle,"application fiori app traiter prlvement dchantillons. donnes dentre et instructions titre dentte traiter prlvement dchantillons
+1. selectionnez le numro de prlvement en utilisant le numro de lot de contrle
+2. cliquez sur entrer
+3. selectionnez la ligne de lchantillon imprimer
+4. cliquez sur imprimer tiquette en haut de lcran
+notez dans le cas o ltiquette est dj imprim, un message davertissement saffiche. dans ce cas, cliquez sur continuer. rsultats attendus spool gner"
+imprimer tiquette pour lchantillon,"application fiori app afficher la demande de spool. donnes dentre et instructions titre dentte pilotage des sorties slection dordres spool
+1. entrez les donnes suivantes 
+ cr par votre id sap
+ date de cration la date daujourdhui
+2. cliquez sur executer.
+3. vrifier les demandes de spool et cliquez sur line suivant 
+4. vrifiez ltiquette de contrle affiche. rsultats attendus ltiquette imprimer saffiche"
+"saisie des rsultats de contrle lors de la production
+contrle de la production","application fiori app saisie des rsultats de contrle rserve de travail hirarchique. donnes dentre et instructions titre dentte rserve de travail saisie rsultats
+1. entrez les donnes suivantes
+2. allez la vue numro lot de contle et entrez le numro de lot de contrle et cliquez sur le button executer
+4. dans le panneau gauche, ouvrir le noeud corrspondant au lot de contrle et ordre de process.
+5. cliquez sur le noeud au niveau de lopration et cliquez sur le noeud de lchantillon pour afficher les caractritiques de contrle
+6. saisissez les rsultats de contrle pour la caractrisitque correpondente
+7. les caractritiques de contrle sont affichs droite pour la saisie des rsultats
+8. entrez les valeurs des rsultats
+9. selectionnez les caractrisitques et cliquez sur clture
+10. cliquez sur la checkbox accepter et cliquez sur le button suite
+11. rptez la mme chose pour les autres caractristiqueset enregistrer
+ puis cliquez sur continuer
+notez aprs sauvegarde licne de lchantillon et caracteristiques deviennent un carreau vert
+12. rptez les mmes tapes pour les autres oprationso les rsultats mic doivent tre saisies. rsultats attendus saisie des rsultats de contrle complte avec succ pour le lot de contrle 300000xxxxx"
+crer deuxime chantillon,"application fiori app crer chantillon avec rfrence. donnes dentre et instructions titre dentte crer nouveau prlvement dchantillons avec rfrence
+entrez les donnes suivantes
+1. lot de contrle 3xxxxxxxxx
+2. dfilez vers le bas, dans la section saisie des rsultats, cochez crer pts de ctrle radio button
+3. executer
+4. lchantillon cre saffiche dans lcran suivant, cliquez sur le button en bas traiter prlvement dchantillon 
+5. notez le nouveau numro dchantillon
+6. cliquez sur le buton retour. rsultats attendus chantillon est cre avec numro de prlvement"
+entrez date de prlvement et heure de prlvement de lchantillon,"application fiori app modifier chantillon. donnes dentre et instructions titre dentte modifier chantillon
+3. entrez le numro de lchantillon gnr lors de ltape prcdente 20000xxxx
+ dans lcran suivant, allez la vue dtailechant
+4.en bas de lcran entrez la date et heure du prlvement de lchantillon.
+5. puis sauvegarder lchantillon. rsultats attendus 1. date de prlvement et heure de prlvement de lchantillon misent jour"
+"saisie des rsultats de contrle lors de la production
+contrle de la production","application fiori app saisie des rsultats de contrle rserve de travail hirarchique. donnes dentre et instructions titre dentte rserve de travail saisie rsultats
+1. entrez les donnes suivantes
+2. allez la vue numro lot de contle et entrez le numro de lot de contrle et cliquez sur le button executer
+4. dans le panneau gauche, ouvrir le noeud corrspondant au lot de contrle et ordre de process.
+5. cliquez sur le noeud au niveau de lopration et cliquez sur le noeud de lchantillon pour afficher les caractritiques de contrle
+6. saisissez les rsultats de contrle pour la caractrisitque correpondente
+7. les caractritiques de contrle sont affichs droite pour la saisie des rsultats
+8. entrez les valeurs des rsultats
+9. selectionnez les caractrisitques et cliquez sur clture
+10. cliquez sur la checkbox accepter or rejeter et cliquez sur le button suite
+11. rptez la mme chose pour les autres caractristiques et enregistrer
+ puis cliquez sur continuer
+notez aprs sauvegarde licne de lchantillon et caracteristiques deviennent un carreau vert
+12. rptez les mmes tapes pour les autres oprationso les rsultats mic doivent tre saisies. rsultats attendus saisie des rsultats de contrle complte avec succ pour le lot de contrle 300000xxxxx"
+confirmation manuel de la production et sortie de marchandises,"application app 
+confirmation dune phase dordre de process. donnes dentre et instructions titre dentte saisir le relev dheures pour lordre de process
+1. entrez les donnes sur les champs 
+2. ordre de process 1000xxx
+3. phase 00xx et puis appuyez sur entrer.
+4. dans lcran suivant entrez les donnes suivantes 
+5.rendement entrer une quantit partielle de lordre de process
+6. dtails des activits
+7. equipe 1
+8. date enregistrement date de lxecution du script
+9. text confirmation optional
+10. motif cart optional
+11. une fois tous les drtails entrs, cliquez sur le button en haut mouvements de stocks.
+12. dans lcrn suivant vrifi les dtails proposs pour les valeurs des composants de larticle
+quantit
+magasin
+lot
+notez mouvement de stock peuttre vide, puisque pas toute les phases ont des composants consommer 
+13. cliquez sur enregistrer
+14.puis cliquez sur enregistrer et la confirmation pour lordre de process.
+15. rptez la mme chose pour les autres phases de lordre de process. rsultats attendus confirmation confime avec succs"
+confirmation de reception de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions header title goods receipt order uset name
+1. selectionnez entr de marchandises 
+2. sur 2eme liste droulante selectionnez ordre
+3.entrez dordre de process et appuyez sur entrer
+4. larticle pour entr de marchandises saffiche, modifiez la date document la date actuelle 
+5.les dtails sur la rception sont affichs
+6. mettez jour quantit division, magasin, lot soit en enregistre lentr sur un lot existant, soit un nouveau lot sera cre automatiquement 
+7. puis cliquez sur post ok 
+8.cliquez sur le button vrifier, pour vrifier les information entres, et not le numro de lot gnr pour les tapes suivantes
+9. puis cliquez sur le button enregistrer. rsultats attendus entr de marchandises effectu avec succs
+lot cre"
+saisie des rsultats de contrle pour la rception de marchandises cre,"application fiori app saisie des rsultats de contrle rserve de travail hirarchique. donnes dentre et instructions titre dentte rserve de travail saisie rsultats
+1. entrez les donnes suivantes
+2. division jf01
+3. lot dorigine 04, entrez numro de lot 0000000xxx et cliquez sur executer.
+4. dans le panneau gauche, ouvrir le noeud corrspondant au lot de contrle et ordre de process.
+5. cliquez sur le noeud au niveau de lopration et cliquez sur le noeud de lchantillon pour afficher les caractritiques de contrle
+6. pour les caractristiques marques avec la moyenne pondr, les rsultats sont calculs automatiquement
+7. pour le reste des caractristiques, ils proviennent de lims vrifier les valeurs, ou entrer les valeurs manuellement.
+9. selectionnez les caractrisitques et cliquez sur clture
+10. cliquez sur la checkbox accepter or rejeter et cliquez sur le button suite
+11. rptez la mme chose pour les autres caractristiques et enregistrer. rsultats attendus les rsultats de contrle pour lentr de marchandises est enregistr avec succs"
+"confirmez dcision dutilisation pour la gr de lodre de process
+04 inspection type","application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions titre dentte slection des lots de contrle
+1. entrez les donnes suivantes
+ lot cre le date of script execution
+ division jf01
+ article 30000006
+ origine lot de ctrl 04
+2. cliquez sur executer
+3. 1. selectionnez le lot de contrle li lordre de process et cliquez sur dcision dutilisation
+3. 2. cliquez sur highlighted in screenshot, ct de caractristiques appropries pour d.u.
+3. 3. allez la section dcision dutilisation
+4. dans le champ code du
+5. selectionnez le code de dcision dutilisation appropri.
+6. cliquez sur la vue stock de lot de contrle
+7. cliquez sur le button proposal
+8. cliquez enregistrer .. rsultats attendus 	
+ dcision dutilisation enregistrer"
+"confirmez dcision dutilisation pour la gr de lodre de process
+03 inspection type","application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions titre dentte slection des lots de contrle
+1. entrez les donnes suivantes
+ lot cre le date of script execution
+ division jf01
+ article 30000006
+ origine lot de ctrl 03
+2. click on execute
+3. selectionnez le lot de contrle li lordre de process
+4. cliquez sur dcision dutilisation
+5. entrer le numro de lot
+6. selectionnez le code de dcision dutilisation appropri.
+6. cliquez enregistrer .. rsultats attendus usage decision for inprocess inspection lot saved."
+afficher les caractrisitiques du lot pour voir les rsultats dinspection,"application fiori app afficher lot. donnes dentre et instructions titre dentte afficher lot
+1. division jf01
+2. article 30000006
+3. numro de lot et cliquez sur entrer
+4. puis allez la vue classification et vrifier les valeurs des caractristiques, doivent tre mis jour par les valeurs du lot de contrle. rsultats attendus les valeurs des caractristiques du lot 0000000xxx sont mis jour par les valeurs du lot de contrle"
+cost analysisvariance analysis report of process order,"application fiori app display process order. donnes dentre et instructions entrez 
+1.le numro de lordre de process 100xxxx et appuyez sur entrer
+2. follow steps plus saut cots analyse cliquez sur le button en haut slectionner mise en forme et appuyer sur entrer. rsultats attendus 1. the costvariance report will be display for process order.
+00000100xxxx"
+complter techniquement la production standard,"application fiori app modification dun ordre de process. donnes dentre et instructions titre dentte modifier ordre de process cran initial
+1. entrez les donnes suivantes
+ ordre de process 1000xxxx
+2. appuyer sur entrer
+3. selectionnez plus ordre de process fonctions limiter le traitement clture technique
+4. cliquez sur sauvegarder. rsultats attendus clture technique de lordre de process. status teco"
+monitorer ca,"application fiori app afficher commande dachat. donnes dentre et instructions 1 cliquer afficher commande dachat
+2 cliquer sur autre commande
+3 dans le champ cde achat entrez le numro de la commande dachat 4700000002
+4 cliquez sur autre document et vrifier les dtails de la ca. rsultats attendus commande dachat affiche"
+cration de la livraison entrante,"application fiori app crer livraison entrante. donnes dentre et instructions entrez le suivant 
+
+1 dans le champs commande dachat entrez le numro de la commmande dachat 4700000002
+et cliquer sur entrer. 
+2 cliquez sur la vue entr de stock, dans quantit entre, entrez la quantit reue vrifier que la quantit livre est la mme que la quantit entre
+3 entrer magasin am01 et cliquer sur sauvegarder. 
+4 noter le document de la livraison entrante 18xxxxxxx. rsultats attendus livraison cre sous le numro xxxxxxxxxx"
+rception de marchandise en rfrence la livraison entrante,"application fiori app 
+modification de livraison entrante. donnes dentre et instructions entrez le suivant 
+
+1 dans le champ mivraison entrante entrez le numro de la livraison entrante cre lors de ltape 2.1 puis cliquez sur entrer. 
+2cliquez sur plus puis sur sauter, cliquez sur post puis sur donnes article
+dans le champ date fabrication entrez la date prsente
+3vrifier la quantit dans le champ quantit entre et cliquez sur enregistrer em icone en haut du document si le button nest pas affich cliquez sur plus puis sur editer puis sur enregistrer em
+4 notez le document article gnr 50xxxxxxxx. rsultats attendus livraison cre sous le numro xxxxxxxxxx"
+aperu de stock la date comptable,"application fiori app 
+stocks la date comptable. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 10000002
+division jf02
+magasin am01
+cliquez sur excuter. . rsultats attendus stocks la date comptable affich avec succs"
+enregistrer rsultat pour le lot de contrle cre lors de la rception de marchandise,"application fiori apptraiter les lots de contrle rserve de travail. donnes dentre et instructions 1. entrer les donnes suivantes
+ lot cre le date dexcution du script
+ division jf02
+ article 10000002
+ origine lot de contrle 01
+2.cliqueez sur le button excuter
+3.cliquez sur plus puis sur modifier mise en forme,
+ sur la liste droite cliquez sur cr par puis cliquez sur la flche cidessous puis cliquez sur licone reprendre.
+
+4 selectinnez lot dinspection et cliquez sur rsultats
+5 selectinnez le lab cliquez sur pts ctrle aff optional
+4.entrez la valeur du rsultat pour chaque caratristiques et cliquez sur licne accepter en se basant sur larticle
+
+
+5.selectinnez caratristique et cliquer sur licne clturer
+
+6.rpter la mme chose pour les autres caratristiques et sauvegarder.
+un pop up mgs va appartre pour confimer la valuation du point de contrle.
+cliquez sur accepterrejeter et appuyesur continuer.
+. rsultats attendus lot de contrle modifi rsultats enregistrs"
+dcision dutilisation pour lot de contrle aprs enregistrement des rsultats,"application fiori apptraiter les lots de contrle rserve de travail. donnes dentre et instructions 1. entrer les donnes suivantes
+ division jf02
+ article 10000002
+ origine lot de contrle 01
+3 excuter, tu vas trouver la ligne du lot de contrle cre xxxx
+4 selecinnez la ligne du lot de contrle et cliquez sur dcision dutilisation,
+5 selectinnez dans le champ code d.u matire premire et cliquez sur accepter
+6dans la vue stocks de lots de contrle, dans le champ dans stock libre entrez la quantit mettre dans le stock libre. 
+cliquez sur sauvegarder un message va qppartre dcision dutilisation sauvegard pour lot xxx.
+le lor de contrle ne va pas appartre aprs avoir cliquer sur rafraichir.
+. rsultats attendus lot de contrle modifi rsultats enregistrs"
+valider article document comptable,"application fiori app
+enregistrer mouvement de stock. donnes dentre et instructions 1cliquez sur lapp enregistrer mouvement de stock.
+2 sur 1er liste droulante selectinnez afficher et sur 2eme liste droulante document article 
+3 entrez document article numro du document article de ltape 2.2
+4 apputyez sur entrer
+5 vrifiez le document article
+6 dans gnralits slctionnez info document et cliquer sur document fi pour voir la liste des documents comptables. rsultats attendus document article"
+afficher stock,"application fiori app
+afficher synthse des stocks
+. donnes dentre et instructions 1 cliquez sur lapp afficher synthse des stocks.
+2 entrez les informations suivantes 
+ article 10000002
+ division jf02
+3 executer. rsultats attendus synthse des stocks affiche avec succs"
+monitorer ca,"application fiori app afficher commande dachat. donnes dentre et instructions 1 cliquer afficher commande dachat
+2 cliquer sur autre commande
+3 dans le champ cde achat entrez le numro de la commande dachat 4700000002
+4 cliquer sur autre commande et cliquez sur historique de la commande dachat et vrifier les dtails
+. rsultats attendus commande dachat affiche"
+afficher synthse des stocks,"application fiori app afficher synthse des stocks. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 30000147
+division sf01
+magasin rec1
+lot 000000xxx1
+cliquez sur excut. rsultats attendus stock affich pour le lot affich dans stock bloqu"
+cre un nouveau lot pour larticle dclass en rfrence au lot prcdent,"application fiori app cration dun lot. donnes dentre et instructions 1. entrer les informations suivantes 
+ article 30000147
+ division sf01
+ magasin rec1
+ lot laisser vide
+ article rfrence 30000147
+ lot rfrence 000000xxx1
+ division rfrence 
+appuyez sur entrer et cliquez sur oui
+2. cliquez sur la vue classification pour vrifier si la classification est bien copie du batch de rfrence
+3. enregistrer
+notez le numro de lot pour les tapes suivantes. rsultats attendus un nouveau lot pour larticle dclass est cre"
+transfert de stock de bloqu libre,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1. selectionnez transfert
+2. sur 2eme liste droulante selectionnez autre, la droite, ajoutez type de mvt 343
+3. dans la vue transfert en bas ,de section ,entrez les donnes suivantes 
+ article 30000147
+ division sf01
+ magasin rec1
+ lot 000000xxx1
+ dans la section vers 
+ magasin rec1
+ lot 000000xxx2
+ qt en unit saisie allez la vue quantit entrer 500 to
+ cliquez sur le button contrler 
+3. cliquez sur enregistrer. rsultats attendus transfert de stock de bloqu usage libre"
+afficher synthse des stocks,"application fiori app afficher synthse des stocks. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 30000147
+division sf01
+magasin rec1
+lot 000000xxx2
+cliquez sur excut. rsultats attendus stock affich"
+cration manuel de lordre de process de rework,"application fiori app cration dun ordre de process . donnes dentre et instructions 1. entrez les donnes suivantes 
+ article 30000147
+ division de production sf01
+ type dordre zpor
+2. cliquez sur suite
+3. entrez les donnes suivantes 
+ qt totale 1000
+ date dbut date actuelle
+ date fin date actuelle
+4. allez la vue donn.base, et vrifiez si la version de fabrication est r001, puis continuez
+cliquez sur le button liste dartcles en haut,, et ajoutez le numro de lot pour larticle de rework, et mettez jour le lot et magasin
+5. cliquez sur validerlancer en haut
+un message sur le calcul de cut , cliquez sur oui et lordre de process va tre cre, notez le numro de lordre de process. rsultats attendus 1.ordre de process rework cre 100xxxx"
+confirmation manuel de la production et sortie de marchandises,"application app 
+confirmation dune phase dordre de process. donnes dentre et instructions titre dentte saisir le relev dheures pour lordre de process
+1. entrez les donnes sur les champs 
+2. ordre de process 1000xxx
+3. phase 00xx et puis appuyez sur entrer.
+4. dans lcran suivant entrez les donnes suivantes 
+5.rendement entrer une quantit partielle de lordre de process
+6. dtails des activits
+7. equipe 1
+8. date enregistrement date de lxecution du script
+9. text confirmation optional
+10. motif cart optional
+11. une fois tous les drtails entrs, cliquez sur le button en haut mouvements de stocks.
+12. dans lcrn suivant vrifi les dtails proposs pour les valeurs des composants de larticle
+quantit
+magasin
+lot
+notez mouvement de stock peuttre vide, puisque pas toute les phases ont des composants consommer 
+13. cliquez sur enregistrer
+14.puis cliquez sur enregistrer et la confirmation pour lordre de process.
+15. rptez la mme chose pour les autres phases de lordre de process. rsultats attendus confirmation confime avec succs"
+stock overview,"application fiori app display stock overview. donnes dentre et instructions 1.enter following data and click on execute
+ material 30000147
+ plant sf01
+ storage location rec1
+ batch 0000005675
+2. click on execute
+. rsultats attendus 1. stock displayed"
+afficher synthse des stocks stock usage libre,"application fiori app afficher synthse des stocks. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 30000147
+division sf01
+magasin rec1
+lot 000000xxx2
+cliquez sur excut. rsultats attendus stock affich"
+confirmation de reception de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1. selectionnez entr de marchandises 
+2. sur 2eme liste droulante selectionnez ordre
+3.entrez dordre de process et appuyez sur entrer
+4. larticle pour entr de marchandises saffiche, modifiez la date document la date actuelle 
+5.les dtails sur la rception sont affichs
+6. mettez jour quantit division, magasin, lot fr01 
+7. puis cliquez sur post ok 
+8.cliquez sur le button vrifier, pour vrifier les information entres, et not le numro de lot gnr pour les tapes suivantes 000000xxx3
+9. puis cliquez sur le button enregistrer. rsultats attendus entr de marchandises effectu avec succs
+lot cre"
+saisie des rsultats de contrle pour la rception de marchandises cre,"application fiori app saisie des rsultats de contrle rserve de travail hirarchique. donnes dentre et instructions titre dentte rserve de travail saisie rsultats
+1. entrez les donnes suivantes
+2. division sf01
+3. lot dorigine 04, entrez numro de lot 0000000xxx3 et cliquez sur executer.
+4. dans le panneau gauche, ouvrir le noeud corrspondant au lot de contrle et ordre de process.
+5. cliquez sur le noeud au niveau de lopration et cliquez sur le noeud de lchantillon pour afficher les caractritiques de contrle
+6. pour les caractristiques marques avec la moyenne pondr, les rsultats sont calculs automatiquement
+7. pour le reste des caractristiques, ils proviennent de lims vrifier les valeurs, ou entrer les valeurs manuellement.
+9. selectionnez les caractrisitques et cliquez sur clture
+10. cliquez sur la checkbox accepter or rejeter et cliquez sur le button suite
+11. rptez la mme chose pour les autres caractristiques et enregistrer. rsultats attendus les rsultats de contrle pour lentr de marchandises est enregistr avec succs"
+"confirmez dcision dutilisation pour la gr de lodre de process
+04 inspection type","application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions titre dentte slection des lots de contrle
+1. entrez les donnes suivantes
+ lot cre le date of script execution
+ division sf01
+ article 30000147
+ origine lot de ctrl 04
+2. cliquez sur executer
+3. 1. selectionnez le lot de contrle li lordre de process et cliquez sur dcision dutilisation
+3. 2. cliquez sur highlighted in screenshot, ct de caractristiques appropries pour d.u.
+3. 3. allez la section dcision dutilisation
+4. dans le champ code du
+5. selectionnez le code de dcision dutilisation appropri.
+6. cliquez sur la vue stock de lot de contrle
+7. cliquez sur le button proposal
+8. cliquez enregistrer .. rsultats attendus 	
+ dcision dutilisation enregistrer"
+afficher synthse des stocks stock usage libre,"application fiori app afficher synthse des stocks. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 30000147
+division sf01
+magasin rec1
+lot 000000xxx3
+cliquez sur excut. rsultats attendus stock affich dans usage libre"
+cost analysisvariance analysis report of process order,"application fiori app display process order. donnes dentre et instructions entrez 
+1.le numro de lordre de process 100xxxx et appuyez sur entrer
+2. follow steps plus saut cots analyse cliquez sur le button en haut slectionner mise en forme et appuyer sur entrer. rsultats attendus 1. the costvariance report will be display for process order.
+00000100xxxx"
+complter techniquement la production standard,"application fiori app modification dun ordre de process. donnes dentre et instructions titre dentte modifier ordre de process cran initial
+1. entrez les donnes suivantes
+ ordre de process 1000xxxx
+2. appuyer sur entrer
+3. selectionnez plus ordre de process fonctions limiter le traitement clture technique
+4. cliquez sur sauvegarder. rsultats attendus clture technique de lordre de process. status teco"
+nan,application nan. donnes dentre et instructions nan. rsultats attendus nan
+nan,application nan. donnes dentre et instructions nan. rsultats attendus nan
+afficher synthse des stocks,"application fiori app afficher synthse des stocks. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 30000147
+division sf01
+magasin rec1
+lot 000000xxx1
+cliquez sur excut. rsultats attendus stock affich pour le lot affich dans stock bloqu"
+transfert de stock de bloqu libre,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1. selectionnez transfert
+2. sur 2eme liste droulante selectionnez autre, la droite, ajoutez type de mvt 343
+3. dans la vue transfert en bas ,de section ,entrez les donnes suivantes 
+ article 30000147
+ division sf01
+ magasin rec1
+ lot 000000xxx1
+ dans la section vers 
+ magasin rec1
+ lot 000000xxx1
+ qt en unit saisie allez la vue quantit entrer 500 to
+ cliquez sur le button contrler 
+3. cliquez sur enregistrer. rsultats attendus transfert de stock de bloqu usage libre"
+cre un nouveau lot pour larticle dclass en rfrence au lot prcdent,"application fiori app cration dun lot. donnes dentre et instructions 1. entrer les informations suivantes 
+ article 30000151 article dclass
+ division sf01
+ magasin rec1
+ lot laisser vide
+ article rfrence 30000147
+ lot rfrence 000000xxx1
+ division rfrence 
+appuyez sur entrer et cliquez sur oui
+2. cliquez sur la vue classification pour vrifier si la classification est bien copie du batch de rfrence
+3. enregistrer
+notez le numro de lot 000000xxx2 pour les tapes suivantes. rsultats attendus un nouveau lot pour larticle dclass est cre"
+larticle actuel est dclass un autre article,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1. selectionnez transfert
+2. sur 2eme liste droulante selectionnez autre, la droite, ajoutez type de mvt 309
+3. dans la vue transfert en bas ,de section ,entrez les donnes suivantes 
+ article 30000147
+ division sf01
+ magasin rec1
+ lot 000000xxx1
+ dans la section vers 
+ article 30000151
+ magasin rec1
+ lot 000000xxx2
+ qt en unit saisie allez la vue quantit entrer 500 to
+ cliquez sur le button contrler 
+3. cliquez sur enregistrer. rsultats attendus larticle actuel est dclass un autre article transformation"
+afficher synthse des stocks,"application fiori app afficher synthse des stocks. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 30000147
+division sf01
+magasin rec1
+lot 000000xxx1
+cliquez sur excut. rsultats attendus stock affich pour le lot affich dans stock bloqu"
+afficher les matires auxiliaires au niveau de la divisionmagasin pour le stock libre,"application fiori app afficher synthse des stocks. donnes dentre et instructions fiori app afficher synthse des stocks
+entrer les informations suivantes 
+numro darticle 10000032
+division sp01
+magasin am01
+cliquez sur excuter.
+notez le numro de lot mettre en rebut
+stock saffiche. rsultats attendus stock de larticle affich en utilisation libre"
+"matires auxiliaires expires
+slectionnez le stock mettre en rebut","application fiori app
+liste des dates limites de consommation. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 10000032
+division sp01
+magasin am01
+slctionnez en jours
+cliquez sur excuter.. rsultats attendus liste des dates limites de consommation affiche"
+dplacer le stock de matires auxiliaires dutilisation libre vers stock bloqu,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions fiori app enregistrer entre de marchandises
+
+sur 1er liste droulante selectinnez transfert
+sur 2eme liste droulante selectinnez autre
+
+
+
+entrer mouvement type 344
+
+
+
+
+
+1dans la vue transfert entrer les informations suivantes 
+
+numro darticle 10000032
+division sp01
+magasin am01
+lot slectionnez le numro de lot dans la liste entrer le lot not de ltape 1.0
+cliquez sur entrer
+2 dans la vue quantit entrez 
+quantit 10000
+check post ok et cliquez sur enregistrer
+
+document article enregistr
+. rsultats attendus le stock de matires auxiliaires va tre dplac de stock dutilisation libre vers stock bloqu
+document article 49xxxxxxx enregistr"
+"matires auxiliaires endommags
+slectionnez le stock mettre au rebut","application fiori app enregistrer mouvement de stock. donnes dentre et instructions fiori app enregistrer mouvement de stock
+
+sur 1er liste droulante selectinnez sortie de marchandises
+sur 2eme liste droulante selectinnez autres
+
+
+
+entrer mouvement type 551
+
+
+
+
+
+1dans la vue article entrer les informations suivantes 
+article 10000032
+
+2dans la vue quantit entrez 
+dans la vue quantit entrez 10000
+
+3dans la vue o entrer les informations suivantes 
+division sp01
+magasin am01 et cliquer sur entrer
+lot slectionnez le numro de lot dans la liste entrer le lot not de ltape 1.0
+motif du mouvement selectinnez 0001 article endommag
+slectionnez stock bloqu
+
+4dans la vue compte entrer les informations suivantes 
+compte gnral sp01stock0
+cliquez sur entrer, check pos ok cliquezsur enregistrer
+notez le numro du document article gnr 49xxxxxxxx. rsultats attendus document article 49xxxxxxx enregistr"
+afficher liste des documents article,"application fiori app afficher liste des documents article. donnes dentre et instructions fiori app enregistrer mouvement de stock
+
+sur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrez document article gnr lors de ltape 1.3
+cliquez sur entrer
+check document details
+cliquez sur info documentpuis cliquez sur pces cptables, double cliquez sur pice comptable pour afficher les dtails
+. rsultats attendus numro de document artilce enregistr"
+afficher stocks,"application fiori app afficher synthse des stocks. donnes dentre et instructions fiori app afficher synthse des stocks
+entrer les informations suivantes 
+numro darticle 10000032
+division sp01
+magasin am01
+cliquez sur excuter.
+
+stock saffiche. rsultats attendus stock pour la division saffiche avec succs"
+afficher synthse des stocks,"application fiori app afficher synthse des stocks. donnes dentre et instructions entrer les informations suivantes 
+numro darticle 30000118
+division jf03
+notez le lot que vous utiliserez dans la livraison
+cliquez sur excut
+."
+crer livraison sortante pour la commende client cre,"application fiori app crer livraison sortante avec rfrence la commande. donnes dentre et instructions 1. ouvrir crer livraison sortante avec rfrence la commande
+2. entrez point dexpdition jf03
+3. dans le champ ordre entrez le numro de la commende client
+cliquez sur entrer et enregistrer le document. 
+notez le document de la livrason sortante 80xxxxxx."
+prlvement partiel de la livraison sortante,"application fiori app modifier livraison sortante. donnes dentre et instructions allez modifier livraison sortante
+entrez le numro de la livraison sortante de ltape prcedente 3.1 
+cliquez sur suitepuis cliquez sur la vue prlvement darticles , dans la qt prleve entrez la quantit prleve de du stock. si la quantit rel prleve est audessous ou audessus de la quantit livre modifiez la qt livre pour quelle soit gale la quantit prleve si ncessaire exp qt livre est 15000 et la qt prleve du stock tait 14000, mettez qt livre 14000 etqt prleve 14000
+entrez magasin fr01
+dans le champ lot selectinnez le lot si la liste des lots napparat pas cliquez sur licone prs du champ lot
+
+
+puis retournez et choisissez le lot pour la divisionet entrez le numro de larticle 30000118 et la division jf03 et cliquez sur rechercher et la liste des lots safiche vous puvez aussi utiliser lapp afficher synthse des stocks et trouvez le ot avec stock
+
+cliquez sur enregistrer. ."
+mnuellemnt enregistrer les rsultats des lots de contrle de la livraison sortante,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions 1. entrer les informations suivantes 
+ lot cre le date lxecution du script
+ division jf03
+ article 30000118
+ origine de lot de contrle 02
+2. cliquez sur lr button excuter
+3.cliquez sur plus puis cliquez sur modifier la mise en forme,
+ dans la liste droite cliquez sur cre par puis cliquez sur la flche cidessous
+et cliquez sur licne reprendre.
+
+4 slectionnez le lot de contrle et cliquez surrsultats
+5 slectionnez le lab cliquez sur pts de ctrle affects
+4.entrez caleurs de rsultat pour chaque caractristique et cliquez sur licne accept
+
+
+5.selectinnez les caractristiqueset cliquez sur licne de vroullage 
+
+6.rptez la mme chose pour les autres caractristiques et enregistrer.
+un pop up mgs saffiche pour confirmer lvaluation du point de contrle.
+cliquez sur acceptrejet et appuyez sur continuer.
+."
+performerdcision dutilisation pour le lot de contrle cre 02 type dinspection pour la livraison sortante,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions entrer les informations suivantes 
+1 division jf03
+ article 30000118
+ origine de lot de contrle 02
+3 excuter, vous allez obtenir la ligne du lot de contrle cre xxxx 
+4 selectinnez la ligne du lot de contrle et cliquez sur dcision dutilisation
+5 selectionnez dans le champ code d.u produits finis et cliquez sur accept
+cliquez sur enregistrer, un message appar dcision dutilisation pour le lot de controle xxxx est enregistrer.
+rafrechissez lcran et le lot de contrle va apparatre fait.
+."
+enregistrer sortie de marchandises pour la livraison sortante cre pour le client vrifiez le document fico gnr,"application fiori app modifier livraison sortante. donnes dentre et instructions allez modifier livraison sortante 
+entrez le numro de la livraison sortante de ltape prcedente 3.1 
+cliquez sur entrer
+le button est en haut du document, si le button napparat pas,cliquez sur plus, puis cliquez sur editer puis sur enregistrer sortie de marchandises. 
+
+4 cliquez sur flux du document le button est en haut du document, notez le numro du document article en face de sortie de marchandises livraison .49xxxxxxxx."
+vrifier le statut de la livraison pour la sortie de marchandises,"application fiori app afficher livraison sortante. donnes dentre et instructions allez afficher livraison sortante 
+entrez le numro de la livraison sortante de ltape prcedente 
+cliquez sur flux de documentet vrifiez les dtails."
+vrifier article et document comptable gnr lors de la sortie de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectionnez
+isur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrez le num du doc article de ltape 6.2
+
+2 dans lentte selectionnez info document et cliquez sur pices comptables pour afficher la list des documents comptables."
+afficher stock pour la division mtrie et rcptrice,"application fiori app stock artcilces multiples. donnes dentre et instructions entrer donnes cidessous
+numro darticle 20000011
+division ja02 division cdante
+magasin as01 magasin mteur
+cliquer sur lancer
+notez le numro du lot que vous allez utilisez pour la sortie de marchandises. 
+repeatez ltape pour la division rceptrice et entrez les donnes cidessous 
+numro darticle 20000011
+division jf06 division rcptrice
+magasin as01 magasin rcepteur
+cliquer sur lancer. rsultats attendus stock de division afficher proprement"
+list les demandes de transport de stock ouvertes,"application fiori app afficher demandes dachat. donnes dentre et instructions entrer donnes cidessous
+article 20000011 
+division jf06 division rcptrice
+type de document zap2 aps intercompany str
+cliquer sur executer
+les demandes de transport de stock saffichent, notez le numro du str.. rsultats attendus list des str affich"
+crer un ordre de transport de stock sto inter company,"application fiori app crer commande dachat tendu. donnes dentre et instructions 1 accedez crer commande dachat tendu
+2 slectionnez dans la liste gauche en haut aps intercompany sto type de document. 
+
+
+3 cliquez sur activer synthse des documents, cliquez sur selection variant icne et choisissez demandes dachat .
+
+
+
+
+
+
+
+4 entrez article 20000011 et la division jf06 et cliquez sur excuter. 
+5 choisissez le numro du str vrifie lor de ltape 1.1 et cliquez sur icne reprendre. 
+
+6 dans lentte document, dans la vue donnes organisationnelles vrifiez si la orgachat est pj01 et entrez groupe dachteurs t06 sto group jln
+vrifiez les quantits and la date de livraison
+6 cliquez sur enregistrer
+le sto est cre, notez le document
+. rsultats attendus le po pour le transport est cre sous le numro 45xxxxxxxxx"
+list des sto ouverts,"application fiori app afficher documents dachat par division cdante. donnes dentre et instructions entrer donnes cidessous
+division cdante ja02
+divisionjf06
+type de document zap2 aps intercompany str
+tendue de la liste alv
+
+excuter
+. rsultats attendus liste des sto ouverts saffiche"
+crer livraison sortante pour lentit cdente jour 1,"application fiori app mes postes de commande dachat expdier. donnes dentre et instructions 1 entrer donnes cidessous
+point expdition ja02
+
+assurez vous que la date de livraison est entre les dates saisies. 
+
+2 dans la vue commandes dachat entrer
+document dachat 450000xxxx sto cre lors de ltape 2.1 puis cliquez sur executer
+
+3 dans la nouvelle fentre, selectinnez la ligne et cliquez sur le button arrireplan
+4 cliquez sur plus puis cliquez sur affichermasquer livraisons et noter le numro de document de livraison sortante le numro est dans la colonne document. . rsultats attendus livraison sortante cr sous le numro 8xxxxxxxxx"
+enregistrer sortie de marchandises pour la livraison sortante et gnration du transit,"application fiori app modifier livraison sortante. donnes dentre et instructions allez modifier livraison sortante 
+entrez le numro de la livraison sortante de ltape prcedente 3.1 
+cliquez sur entrer
+
+2 dans la vue prlvement darticles entrer
+quantit livr 15000 si la quantit rel prleve est audessous ou audessus de la quantit livre modifiez la qt livre pour quelle soit gale la quantit prleve si ncessaire exp qt livre est 15000 et la qt prleve du stock tait 14000, mettez qt livre 14000 etqt prleve 14000
+quantit prleve 15000
+magasin as01 and cliquez sur entrer
+lot selectinnez le numro du lot entrez le numro du lot notez lors de ltape 1.0
+3cliquez sur enregistrer sortie de marchandises le buttoon est en haut du document, si le button napparat pas,cliquez sur plus, puis cliquez sur editer puis sur enregistrer sortie de marchandises. 
+
+4 cliquez sur flux du document le button est en haut du document, notez le numro du document article en face de sortie de marchandises. rsultats attendus document article enregistrer aprs la sortie de marchandises"
+vrifiez stock en transit,"application fiori app affichage du stock en transit. donnes dentre et instructions 
+1 selectinnez
+article 20000011
+division prenante jf06
+division cdante ja02
+
+cliquez sur excuter. rsultats attendus stock en transit saffiche dans la liste"
+vrifier le document fico gnr de la sortie de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectinnez
+sur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrer le document n le document article cre lors de ltape 3.2
+
+2 dans lentte selectionnez info doc et cliquez sur pces cptables pour afficher la liste pices coomptables. rsultats attendus liste des pices comptables saffiche"
+entr de marchandise dans la divisionmagasin rcepteur,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectionnez
+sur 1er liste droulante selectinnez entr de marchandises
+sur 2eme liste droulante selectinnez commande dachat
+enter le document n sto cre dans ltape 3.1
+
+2 vrifiez la date de document et la date denregistrement 
+3 dans la vue o entrer magasin ap02
+4 dans la vue quantit confirmez la quantit entre 15000
+5 idans la vue lot pas de numro de lot gnr par le systme
+6 cochez post ok
+7 cliquez sur enregistrer.
+8 larticle va tre enregistrer dans le stock qualit, notez le document article gnr. . rsultats attendus document article xxxxxxxxxx enregistr"
+vrifier le document fico gnr de lentr de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectinnez
+sur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrer le document n le document article cre lors de ltape 3.5
+
+2dans lentte selectionnez info doc et cliquez sur pces cptables pour afficher la liste pices coomptables
+. rsultats attendus lisre des documents comptables saffiche"
+confirmez les rsultats du contrle qualit,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions entrer les informations suivantes 
+1 article 20000011
+2 division jf06
+3 origine de lot de contrle 01
+et cliquez sur le button excuter
+3 cliquez sur plus puis cliquez sur modifier la mise en forme,
+dans la liste droite cliquez sur cre par puis cliquez sur la flche cidessous
+et cliquez sur licne reprendre.
+
+ you will be able to see the inspection lot created by your user. 
+4 slectionnez le lot de contrle et cliquez surrsultats
+5 slectionnez le lab cliquez sur pts de ctrle affects optionnel
+6 entrez valeurs de rsultat pour chaque caractristique et cliquez sur licne accept
+
+
+selectionnez les caractristiques et cliquez sur licne de vroullage 
+6 cliquez sur enregistrer. . rsultats attendus les rsultats dinspections sont enregistrs pour le lot de contrle"
+confirmez dcision dutilisation librer le lot pour usage libre,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions entrer les informations suivantes 
+1 article 20000011
+2 division jf06 
+3 origine de lot de contrle 01
+et cliquez sur lr button excuter
+3 selectionnez la ligne du lot de contrle et cliquez sur on dcision dutilisation
+4 selectionnez dans le champ code d.u produits finis et cliquez sur accept
+5 cliquez sur la vue stock de lot de contrle et mouvementez la quantit de contrle de qualit usage libre . entrer la quantit dans stock libre. 
+6 cliquez sur enregistrer. . rsultats attendus dcision dutilisation pour le lot de controle xxxx est enregistrer"
+crer livraison sortante pour lentit cdente jour 2,"application fiori app mes postes de commande dachat expdier. donnes dentre et instructions 1 entrer donnes cidessous
+point expdition ja02
+
+assurez vous que la date de livraison est entre les dates saisies. 
+
+2 dans la vue commandes dachat entrer
+document dachat 450000xxxx sto cre lors de ltape 2.1 puis cliquez sur executer
+
+3 dans la nouvelle fentre, selectinnez la ligne et cliquez sur le button arrireplan
+4 cliquez sur plus puis cliquez sur affichermasquer livraisons et noter le numro de document de livraison sortante le numro est dans la colonne document. . rsultats attendus livraison sortante cr sous le numro 8xxxxxxxxx"
+enregistrer sortie de marchandises pour la livraison sortante et gnration du transit,"application fiori app modifier livraison sortante. donnes dentre et instructions allez modifier livraison sortante 
+entrez le numro de la livraison sortante de ltape prcedente 3.7 
+cliquez sur entrer
+
+2 dans la vue prlvement darticles entrer
+quantit livr 15000 si la quantit rel prleve est audessous ou audessus de la quantit livre modifiez la qt livre pour quelle soit gale la quantit prleve si ncessaire exp qt livre est 15000 et la qt prleve du stock tait 14000, mettez qt livre 14000 etqt prleve 14000
+quantit prleve 15000
+magasin as01 and cliquez sur entrer
+lot selectinnez le numro du lot entrez le numro du lot notez lors de ltape 1.0
+3cliquez sur enregistrer sortie de marchandises le buttoon est en haut du document, si le button napparat pas,cliquez sur plus, puis cliquez sur editer puis sur enregistrer sortie de marchandises. 
+
+4 cliquez sur flux du document le button est en haut du document, notez le numro du document article en face de sortie de marchandises. rsultats attendus document article enregistrer aprs la sortie de marchandises"
+vrifiez stock en transit,"application fiori app affichage du stock en transit. donnes dentre et instructions 
+1 selectinnez
+article 20000011
+division prenante jf06
+division cdante ja02
+
+cliquez sur excuter. rsultats attendus stock en transit saffiche dans la liste"
+vrifier le document fico gnr de lentr de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectionnez
+sur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrer le document n le document article cre lors de ltape 3.5
+
+2dans lentte selectionnez info doc et cliquez sur pces cptables pour afficher la liste pices coomptables
+. rsultats attendus lisre des documents comptables saffiche"
+entr de marchandise dans la divisionmagasin rcepteur,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectionnez
+sur 1er liste droulante selectinnez entr de marchandises
+sur 2eme liste droulante selectinnez commande dachat
+enter le document n sto cre dans ltape 3.1
+
+2 vrifiez la date de document et la date denregistrement 
+3 dans la vue o entrer magasin ap02
+4 dans la vue quantit confirmez la quantit entre 15000
+5 idans la vue lot pas de numro de lot gnr par le systme
+6 cochez post ok
+7 cliquez sur enregistrer.
+8 larticle va tre enregistrer dans le stock qualit, notez le document article gnr. . rsultats attendus document article xxxxxxxxxx enregistr"
+vrifier le document fico gnr de lentr de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectinnez
+sur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrer le document n le document article cre lors de ltape 3.5
+
+2dans lentte selectionnez info doc et cliquez sur pces cptables pour afficher la liste pices coomptables
+. rsultats attendus lisre des documents comptables saffiche"
+confirmez les rsultats du contrle qualit,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions entrer les informations suivantes 
+1 article 20000011
+2 division jf06
+3 origine de lot de contrle 01
+et cliquez sur le button excuter
+3 cliquez sur plus puis cliquez sur modifier la mise en forme,
+dans la liste droite cliquez sur cre par puis cliquez sur la flche cidessous
+et cliquez sur licne reprendre.
+
+ you will be able to see the inspection lot created by your user. 
+4 slectionnez le lot de contrle et cliquez surrsultats
+5 slectionnez le lab cliquez sur pts de ctrle affects optionnel
+6 entrez valeurs de rsultat pour chaque caractristique et cliquez sur licne accept
+
+
+selectionnez les caractristiques et cliquez sur licne de vroullage 
+6 cliquez sur enregistrer. . rsultats attendus les rsultats dinspections sont enregistrs pour le lot de contrle"
+confirmez dcision dutilisation librer le lot pour usage libre,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions entrer les informations suivantes 
+1 article 20000011
+2 division jf06 
+3 origine de lot de contrle 01
+et cliquez sur lr button excuter
+3 selectionnez la ligne du lot de contrle et cliquez sur on dcision dutilisation
+4 selectionnez dans le champ code d.u produits finis et cliquez sur accept
+5 cliquez sur la vue stock de lot de contrle et mouvementez la quantit de contrle de qualit usage libre . entrer la quantit dans stock libre. 
+6 cliquez sur enregistrer. . rsultats attendus dcision dutilisation pour le lot de controle xxxx est enregistrer"
+afficher stock pour la division mtrie et rcptrice,"application fiori app stock artcilces multiples. donnes dentre et instructions entrer donnes cidessous
+numro darticle 20000011
+division ja02 division cdante
+magasin as01 magasin mteur
+cliquer sur lancer
+notez le numro du lot que vous allez utilisez pour la sortie de marchandises. 
+repeatez ltape pour la division rceptrice et entrez les donnes cidessous 
+numro darticle 20000011
+division jf06 division rcptrice
+magasin as01 magasin rcepteur
+cliquer sur lancer. rsultats attendus stock de division afficher proprement"
+afficher stock pour la division mtrie et rcptrice,"application fiori app stock artcilces multiples. donnes dentre et instructions entrer donnes cidessous
+numro darticle 30000001
+division sf01 issuing plant
+magasin ap03 magasin mteur
+cliquer sur lancer
+notez le numro du lot que vous allez utilisez pour la sortie de marchandises. 
+repeatez ltape pour la division rceptrice et entrez les donnes cidessous 
+numro darticle 30000001
+division sa01receiving plant
+magasin ap02 magasin rcepteur
+cliquer sur lancer. rsultats attendus stock de division afficher proprement"
+list les demandes de transport de stock ouvertes,"application fiori app afficher demandes dachat. donnes dentre et instructions entrer donnes cidessous
+article 30000001
+division sa01division rceptrice
+type de document zap1 aps intracompany str
+cliquez sur excuter
+les demandes de transport de stock saffichent, notez le numro du str.. rsultats attendus list des str affich"
+crer un ordre de transport de stock sto intra company,"application fiori app crer commande dachat tendu. donnes dentre et instructions 1 accedez crer commande dachat tendu
+2 slectionnez dans la liste gauche en haut sto witho dely type de document. 
+
+
+3 cliquez sur activer synthse des documents, cliquez sur selection variant icne et choisissez demandes dachat .
+
+
+
+
+
+
+
+4 entrez article 30000001 et la division sa01 et cliquez sur excuter. 
+5 choisissez le numro du str vrifie lor de ltape 1.1 et cliquez sur icne reprendre. 
+
+6 dans lentte document, dans la vue donnes organisationnelles vrifiez si la orgachat est pj01 et entrez groupe dachteurs t12 sto group mp1
+vrifiez les quantits and la date de livraison
+6 cliquez sur enregistrer
+le sto est cre, notez le document
+. rsultats attendus le po pour le transport est cre sous le numro 45xxxxxxxxx"
+list des sto ouverts,"application fiori app afficher documents dachat par division cdante. donnes dentre et instructions entrer donnes cidessous
+division cdante sf01
+divisionsa01
+type de document zap3 sto witho dely
+tendue de la liste alv
+
+excuter
+. rsultats attendus liste des sto ouverts saffiche"
+enregistrer sortie de marchandises premier jour,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 accedez enregistrer mouvement de stock
+2 sur 1er liste droulante sortie de marchandises
+3 sur 2eme liste droulante commande dachat et entrez le numro du sto cre lors de ltape 2.1 et cliquez sur entrer. 
+entrez magasin ap03 et cliquez sur entrer
+4 entrer quantit 15000, 
+cliquez sur la vue lot et selectinnez le numro du lot de la liste ou entrez le numro du lot not lors de ltape 1.0
+5 chequez sur post ok et cliquez sur enregistrer. notez le numro du document gnr. rsultats attendus sortie de marchandises enregistre"
+vrifiez stock en transit,"application fiori app affichage du stock en transit. donnes dentre et instructions 
+1 selectinnez
+article 30000001
+division prenante sa01
+division cdante sf01
+
+cliquez sur excuter. rsultats attendus stock en transit saffiche dans la liste"
+vrifier le document fico gnr de la sortie de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectinnez
+sur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrer le document n le document article cre lors de ltape 3.1
+
+2 dans lentte selectionnez info doc et cliquez sur pces cptables pour afficher la liste pices coomptables. rsultats attendus liste des pices comptables saffiche"
+entr de marchandise dans la divisionmagasin rcepteur,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectionnez
+sur 1er liste droulante selectinnez entr de marchandises
+sur 2eme liste droulante selectinnez commande dachat
+enter le document n sto cre dans ltape 2.1
+
+2 vrifiez la date de document et la date denregistrement 
+3 dans la vue o entrer magasin ap02
+4 dans la vue quantit confirmez la quantit entre 15000
+5 idans la vue lot pas de numro de lot gnr par le systme
+6 cochez post ok
+7 cliquez sur enregistrer.
+8 larticle va tre enregistrer dans le stock qualit, notez le document article gnr. . rsultats attendus document article xxxxxxxxxx enregistr"
+confirmez les rsultats du contrle qualit,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions entrer les informations suivantes 
+1 article 30000001
+2 division sa01
+3 origine de lot de contrle 08
+et cliquez sur le button excuter
+3 cliquez sur plus puis cliquez sur modifier la mise en forme,
+dans la liste droite cliquez sur cre par puis cliquez sur la flche cidessous
+et cliquez sur licne reprendre.
+
+ you will be able to see the inspection lot created by your user. 
+4 slectionnez le lot de contrle et cliquez surrsultats
+5 slectionnez le lab cliquez sur pts de ctrle affects optionnel
+6 entrez valeurs de rsultat pour chaque caractristique et cliquez sur licne accept
+
+
+selectionnez les caractristiques et cliquez sur licne de vroullage 
+6 cliquez sur enregistrer. . rsultats attendus les rsultats dinspections sont enregistrs pour le lot de contrle"
+confirmez tdcision dutilisation librer le lot pour usage libre,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions entrer les informations suivantes 
+1 article 30000001
+2 division sa01 
+3 origine de lot de contrle 08
+et cliquez sur lr button excuter
+3 selectionnez la ligne du lot de contrle et cliquez sur on dcision dutilisation
+4 selectionnez dans le champ code d.u produits semifinis et cliquez sur accept
+5 cliquez sur la vue stock de lot de contrle et mouvementez 15000 de contrle de qualit usage libre . entrer la quantit dans stock libre. 
+6 cliquez sur enregistrer. . rsultats attendus dcision dutilisation pour le lot de controle xxxx est enregistrer"
+vrifier le document fico gnr de lentr de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectinnez
+sur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrer le document n le document article cre lors de ltape 4.1
+
+2dans lentte selectionnez info doc et cliquez sur pces cptables pour afficher la liste pices coomptables
+. rsultats attendus aucun document comptable nest trouv"
+enregistrer sortie de marchandises deuxime jour,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 accedez enregistrer mouvement de stock
+2 sur 1er liste droulante sortie de marchandises
+3 sur 2eme liste droulante commande dachat et entrez le numro du sto cre lors de ltape 2.1 et cliquez sur entrer. 
+entrez magasin ap03 et cliquez sur entrer
+4 entrer quantit 15000, 
+cliquez sur la vue lot et selectinnez le numro du lot de la liste ou entrez le numro du lot not lors de ltape 1.0
+5 chequez sur post ok et cliquez sur enregistrer. notez le numro du document gnr. rsultats attendus sortie de marchandises enregistre"
+vrifiez stock en transit,"application fiori app affichage du stock en transit. donnes dentre et instructions 
+1 selectinnez
+article 30000001
+division prenante sa01
+division cdante sf01
+
+cliquez sur excuter. rsultats attendus stock en transit saffiche dans la liste"
+vrifier le document fico gnr de la sortie de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectinnez
+sur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrer le document n le document article cre lors de ltape 3.1
+
+2 dans lentte selectionnez info doc et cliquez sur pces cptables pour afficher la liste pices coomptables. rsultats attendus liste des pices comptables saffiche"
+entr de marchandise dans la divisionmagasin rcepteur,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectionnez
+sur 1er liste droulante selectinnez entr de marchandises
+sur 2eme liste droulante selectinnez commande dachat
+enter le document n sto cre dans ltape 2.1
+
+2 vrifiez la date de document et la date denregistrement 
+3 dans la vue o entrer magasin ap02
+4 dans la vue quantit confirmez la quantit entre 15000
+5 idans la vue lot pas de numro de lot gnr par le systme
+6 cochez post ok
+7 cliquez sur enregistrer.
+8 larticle va tre enregistrer dans le stock qualit, notez le document article gnr. . rsultats attendus document article xxxxxxxxxx enregistr"
+confirmez les rsultats du contrle qualit,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions entrer les informations suivantes 
+1 article 30000001
+2 division sa01
+3 origine de lot de contrle 08
+et cliquez sur le button excuter
+3 cliquez sur plus puis cliquez sur modifier la mise en forme,
+dans la liste droite cliquez sur cre par puis cliquez sur la flche cidessous
+et cliquez sur licne reprendre.
+
+ you will be able to see the inspection lot created by your user. 
+4 slectionnez le lot de contrle et cliquez surrsultats
+5 slectionnez le lab cliquez sur pts de ctrle affects optionnel
+6 entrez valeurs de rsultat pour chaque caractristique et cliquez sur licne accept
+
+
+selectionnez les caractristiques et cliquez sur licne de vroullage 
+6 cliquez sur enregistrer. . rsultats attendus les rsultats dinspections sont enregistrs pour le lot de contrle"
+confirmez tdcision dutilisation librer le lot pour usage libre,"application fiori app traiter les lots de contrle rserve de travail. donnes dentre et instructions entrer les informations suivantes 
+1 article 30000001
+2 division sa01 
+3 origine de lot de contrle 08
+et cliquez sur lr button excuter
+3 selectionnez la ligne du lot de contrle et cliquez sur on dcision dutilisation
+4 selectionnez dans le champ code d.u produits semifinis et cliquez sur accept
+5 cliquez sur la vue stock de lot de contrle et mouvementez 15000 de contrle de qualit usage libre . entrer la quantit dans stock libre. 
+6 cliquez sur enregistrer. . rsultats attendus dcision dutilisation pour le lot de controle xxxx est enregistrer"
+vrifier le document fico gnr de lentr de marchandises,"application fiori app enregistrer mouvement de stock. donnes dentre et instructions 1 selectinnez
+sur 1er liste droulante selectinnez afficher
+sur 2eme liste droulante selectinnez document article
+entrer le document n le document article cre lors de ltape 4.1
+
+2dans lentte selectionnez info doc et cliquez sur pces cptables pour afficher la liste pices coomptables
+. rsultats attendus aucun document comptable nest trouv"
+afficher stock pour la division mtrie et rcptrice,"application fiori app stock artcilces multiples. donnes dentre et instructions entrer donnes cidessous
+numro darticle 30000001
+division sf01 issuing plant
+magasin ap03 magasin mteur
+cliquer sur lancer
+notez le numro du lot que vous allez utilisez pour la sortie de marchandises. 
+repeatez ltape pour la division rceptrice et entrez les donnes cidessous 
+numro darticle 30000001
+division sa01receiving plant
+magasin ap02 magasin rcepteur
+cliquer sur lancer. rsultats attendus stock de division afficher proprement"
